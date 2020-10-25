@@ -1,0 +1,35 @@
+body {
+    background-image: url("/pictures/bluescreen.jpg");
+    font-family: sans-serif;
+    padding-bottom: 40px;
+    
+  }
+  h1,
+  a {
+    color: rgb(39, 192, 179);
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    color: rgb(39, 192, 179);
+  }
+  
+  .fixed-footer {
+    width: 100%;
+    position: fixed;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+  }
+  .container {
+    background-color: whitesmoke;
+   padding-bottom: 20px;
+  }
+    
+    
