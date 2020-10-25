@@ -1,10 +1,10 @@
-body {
+/* body {
     background-image: url("/pictures/bluescreen.jpg");
     font-family: sans-serif;
     padding-bottom: 40px;
    
   }
-  
+   */
   h1 {
     color: rgb(39, 192, 179);
     font-family: 'Times New Roman', Times, serif;
@@ -17,6 +17,7 @@ body {
   
   .col img {
     margin-bottom: 30px;
+   
   }
   
   .fixed-footer {
@@ -36,11 +37,18 @@ body {
     color: rgb(39, 192, 179);
   }
   
-  .row{
+  /* .row{
   margin-left: 30px;
-  margin-right: 30px;
-  }
+  /* margin-right: 30px; */
+  /* }  */
   img {
     width: 350px;
     height: 350px;
+    
+  }
+  /* Content */
+.content {
+    background-color: white;
+    padding: 20px;
+    width: 390px;
   }
