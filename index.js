@@ -1,7 +1,7 @@
 
 var i = 0;
-var txt = 'D e s i g n  by Sai...Hi I am Sai'; /* The text */
-var speed = 200; /* The speed/duration of the effect in milliseconds */
+var txt = 'Hi I am Sai....Web Developer'; /* The text */
+var speed = 250; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
@@ -10,6 +10,8 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
