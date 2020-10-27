@@ -1,13 +1,8 @@
-body {
-    background-image: url("/pictures/bluescreen.jpg");
-    font-family: sans-serif;
-    padding-bottom: 40px;
-    
-  }
+
   h1,
   a {
     color: rgb(39, 192, 179);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Unna', serif;
   
   }
   .footer {
@@ -107,4 +102,8 @@ body {
   background-color: dodgerblue;
   color: white;
 }
-    
+img {
+  width: 350px;
+  height: 350px;
+  
+} 
