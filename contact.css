@@ -1,5 +1,4 @@
-
-  h1,
+h1,h3,
   a {
     color: rgb(39, 192, 179);
     font-family: 'Unna', serif;
@@ -26,7 +25,7 @@
     background-color: whitesmoke;
    padding-bottom: 20px;
    padding-top: 5%;
-  
+ 
   }
   #navbar {
     z-index: 9999;
@@ -36,13 +35,22 @@
 
     
   }
-  
+  .parallax {
+    /* The image used */
+    background-image: url("pictures/create.jpg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
   #navbar, .navL, .btn {
     float: left;
     display: block;
     color: #110f0f;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
    
   }
   .btn{
@@ -106,4 +114,13 @@ img {
   width: 350px;
   height: 350px;
   
-} 
+
+}
+iframe{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.fas {
+  font-size: 40px;
+}

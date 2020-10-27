@@ -3,10 +3,10 @@
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("/pictures/bg.jpg");
+  background-image: url("pictures/bg.jpg");
 
   /* Set a specific height */
-  height: 70%;
+  height: 90%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -23,20 +23,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 50px;
 }
+
 img{
     border: 0px;
-    width: 250px;
+    width: 300px;
     float: left;
 }
 
-h1, h3 {
+h1, h3, a {
     color:rgb(39, 192, 179);
     font-family: 'Unna', serif;
-
-
-    
 }
+
 .row {
     background-color: white;
     
@@ -60,7 +61,7 @@ h1, h3 {
   }
 
   #navbar {
-    
+    overflow: hidden;
     background-color: rgb(22, 23, 24);
     width: 100%;
     margin-bottom: 5%;
@@ -73,7 +74,7 @@ h1, h3 {
     display: block;
     color: #110f0f;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
    
   }
   .btn{
@@ -134,24 +135,22 @@ h1, h3 {
     background-color: dodgerblue;
     color: white;
   }
-  .hero-text {
-      font-family: 'Mountains of Christmas', cursive;
-      font-size: 70px;
-  }
+  
   .container{
       width: 100%;
       margin-top: 5%;
   }
- 
+
+  
   
 .parallax {
   /* The image used */
-  background-image: url("/pictures/sunset.jpg");
+  background-image: url("pictures/create.jpg");
   width: 100%;
   
 
   /* Set a specific height */
-  height: 800px;
+  height: 900px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -167,14 +166,19 @@ h1, h3 {
       background-attachment: scroll;
     }
   }
-  .card {
+  .card, .card-contact{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
+    margin-right: 40px;
     text-align: center;
     padding: 20px;
-    border: 5px solid burlywood;
+    float: right;
     
+  }
+  .card-contact{
+    margin-top: 5%;
+    width: 90%;
   }
   
   
@@ -205,4 +209,15 @@ h1, h3 {
     margin-top: 26%;
     margin-left:45%;
   }
- 
+  .fas, .fab {
+    /* padding: 20px; */
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  /* Add a hover effect */
+.fa, .fab:hover {
+  opacity: 0.7;
+}
+
