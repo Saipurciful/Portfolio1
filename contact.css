@@ -37,7 +37,7 @@ h1,h3,
 
     
   }
-  .parallax{
+  /* .parallax{
     /* The image used */
     background-image: url("pictures/coffee.jpg");
     width: 100%;
@@ -46,7 +46,7 @@ h1,h3,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+  } */
   #navbar, .navL, .btn {
     float: left;
     display: block;
@@ -130,10 +130,10 @@ body{
   background-image: url("pictures/coffee.jpg");
     width: 100%;
     height: 100%;
-    /* background-attachment: fixed;
+    background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   }
   p{
     font-family: 'Spectral', serif;
